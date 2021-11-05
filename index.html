@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header> <!-- Nav bar stuff from wireframe -->
         <div id="topImg"> <!-- background image for title bar -->
             <div id="topBar"> 
                 <div class="topLink">
@@ -26,21 +26,39 @@
             </div>
         </div>
     </header>
-    
-    <section id="splashImages">
-        <!-- Back button -->
-        <!-- Dumb business image -->
-        <!-- Dumb business quote -->
-        <!-- forward button -->
-    </section>
-    <section id="contentCards">
-        <div class="card"> 
-            <!-- another dumb business image -->
-            <!-- a description of some sort -->
+
+    <section id="splashImages"> <!-- 1st content pane from wireframe -->
+        <div class="contentPane">
+            <div id="busImg1">
+                <div id="busQuo1">
+                    <h2>Business is neat.</h2>
+                </div>
+                <div id="backButton">
+                    <button>&lt;</button>
+                </div>
+                <div id="forwardButton">
+                    <button>&gt;</button>
+                </div>
+            </div>
         </div>
-        <!-- another "card" object -->
-        <!-- forward button to get more cards -->
     </section>
+
+    <section id="contentCards"> <!-- 2nd content pane from wireframe -->
+        <div class="contentPane">
+            <div class="card"> 
+                <img src="assets/business2-600x900.jpg" alt="business2">
+                <h3>That's business.</h3>
+            </div>
+            <div class="card"> 
+                <img src="assets/business3-600x900.jpg" alt="business3">
+                <h3>Business happening to the left.</h3>
+            </div>
+            <div id="forwardButton2"> <!-- Do I want 2 IDs, or 1 class? -->
+                <button>&gt;</button>
+            </div>
+        </div>
+    </section>
+    
     <footer>
         <!-- "About us" paragraph -->
         <!-- Newsletter signup form -->
